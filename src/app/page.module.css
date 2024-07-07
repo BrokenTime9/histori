@@ -1,9 +1,20 @@
 .highestContainer{
   height:100vh;
   position:relative;
+  
+  cursor:none;
 
   background: var(--background);
 }
+
+/*Cursor*/
+.rounded{
+  width: 30px;
+  height: 30px;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+/*cursor*/
 
 .topSection{
   height: 15vh;
@@ -48,7 +59,7 @@
 }
 /* center */
 .centerTop{
-  width:25%;
+  width:25vw;
   margin-left:auto;
   margin-right:38%;
 
@@ -58,16 +69,16 @@
   font-size:var(--subs-font);
   
   position:relative;
-  top:18%;
+  top:calc(var(--goDown-nigga) + 10vh);
 } 
 .centerTopText {
-  width:50%;
+  width:50vw;
   margin-left:10%;
 
   text-align: right;
 }
 .center{
-  width:60%;
+  width:60vw;
   margin-left: auto;
   margin-right: 17%;
 
@@ -75,7 +86,7 @@
   color:var(--on-background);
 
   position:relative;
-  top:15%;
+  top:calc(var(--goDown-nigga) + 5vh);
 }
 
 /*Right*/
@@ -85,7 +96,7 @@
   height:70vh;
 
   position:absolute;
-  top:10vw;
+  top:20vh;
   right:2.5%;
 
   font-size:var(--right-font);
@@ -96,16 +107,30 @@
 /* container */
 
 .containerOne{
-  width:30%;
-  height:7%;
+  width:30vw;
+  height:7vh;
   border-radius: 0 40px 40px 0;
   padding-top:7px;
 
   position: relative;
-  top:10%;
+  top:var(--goDown-nigga);
+
   background-color: var(--container-one);
   font-size:var(--container-font)
 
+}
+
+.containerInfo{
+  width:12vw;
+  height:7vh;
+  
+  position:relative;
+  left:100%;
+  bottom:100%;
+
+  color:var(--on-background);
+  font-size:var(--containerAfter-font);
+  text-align:right;
 }
 
 .containerText{
@@ -116,7 +141,7 @@
 }
 
 .containerCircle{
-  height: 97%;
+  height: 95%;
   width:11%;
   border-radius:50%;
   padding-left:10px;
@@ -127,12 +152,12 @@
 
   position:absolute;
   right:0.5%;
-  top:0.5%;
+  top:2%;
 }
 
 .containerTwo{
-  width:45%;
-  height:7%;
+  width:45vw;
+  height:7vh;
   border-radius: 0 40px 40px 0;
   padding-top:7px;
 
@@ -140,11 +165,11 @@
   font-size:var(--container-font);
 
   position:relative;
-  top:10%;
+  top:var(--goDown-nigga);
 }
 
 .containerTwoCircle{
-  height: 97%;
+  height: 95%;
   width:7.5%;
   border-radius:50%;
   padding-left:10px;
@@ -155,7 +180,7 @@
 
   position:absolute;
   right:0.3%;
-  top:0.5%;
+  top:2%;
 
 }
 
@@ -165,4 +190,22 @@
   text-align:right;
   color:var(--background)
 
+}
+
+.containerThree{
+  position:relative;
+  top:calc(var(--goDown-nigga) + 2vh);
+
+  width:35vw;
+  margin-right:auto;
+  margin-left:40%;
+
+  font-size:var(--container-font);
+  color:var(--on-background);
+}
+
+.containerThree  span{
+  border:2px solid var(--on-background);
+  border-radius:40px;
+  padding:4px;
 }
