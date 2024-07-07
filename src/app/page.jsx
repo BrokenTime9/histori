@@ -18,9 +18,9 @@ export default function Home() {
       <p className={styles.infoSub}>An art of revealing the past</p>
       </div>
       <p className={`${styles.navOne} ${styles.equals}`}>What we do?</p>
-      <p className={`${styles.navTwo} ${styles.equals}`}>Who we are?</p>
-      <p className={`${styles.navThree} ${styles.equals}`}>Legal</p>
-      <p className={`${styles.navFour} ${styles.equals}`}>Contact</p>
+      <p className={`${styles.navOne} ${styles.equals}`}>Who we are?</p>
+      <p className={`${styles.navOne} ${styles.equals}`}>Legal</p>
+      <p className={`${styles.navOne} ${styles.equals}`}>Contact</p>
     </div>
     <div className={styles.centerTop}>
       <p className={styles.centerTopText}>There's no Future in archaeology</p>
@@ -29,6 +29,16 @@ export default function Home() {
     <div className={`${styles.center} ${yeseva.className}`}>
       <p>We dig</p>
     </div>
+    <div className={styles.right}>
+      <p>Humans appeared, did some farming, Greeks and Romans built shit and fought. Middle Ages sucked, Renaissance was artsy bullshit, Europeans fucked up other lands. 20th century: two World Wars, Cold War, tech boom, now same old fucked-up shit.</p>
+    </div>
+    <div className={styles.containerOne}>
+      <p className={styles.containerText}>Civilizations</p><div className={styles.containerCircle}>1.</div>
+    </div>
+     <div className={styles.containerTwo}>
+      <p className={styles.containerTwoText}>Foundations of society</p><div className={styles.containerTwoCircle}>2.</div>
+    </div>
+    
     
   </div> 
   );

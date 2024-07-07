@@ -3,11 +3,16 @@
   --on-background: #989776;
   --container-one: #E99311;
   --container-two:#D49CFF;
+
+
   --equals-font: 1.5vw;
+  --right-font:1.4vw;
   --logo-font: 3vw;
   --subs-font:1vw;
   --centerLogo-font:17vw;
+  --container-font:2.25vw;
 }
+
 
 * {
   box-sizing: border-box;

@@ -1,12 +1,14 @@
 .highestContainer{
   height:100vh;
-  background: var(--background);
   position:relative;
+
+  background: var(--background);
 }
 
 .topSection{
-  display:flex;
   height: 15vh;
+
+  display:flex;
   justify-content: space-around;
   align-items:center;
 }
@@ -28,6 +30,7 @@
 .logoSub{
   position:relative;
   left:8px;
+
   font-size:var(--subs-font);
 }
 
@@ -39,11 +42,15 @@
   font-size:var(--subs-font);
 }
 
+.navOne{
+  position:relative;
+  left:1%; 
+}
 /* center */
 .centerTop{
   width:25%;
   margin-left:auto;
-  margin-right:45%;
+  margin-right:38%;
 
   display:flex;
 
@@ -51,7 +58,7 @@
   font-size:var(--subs-font);
   
   position:relative;
-  top:10%;
+  top:18%;
 } 
 .centerTopText {
   width:50%;
@@ -62,8 +69,100 @@
 .center{
   width:60%;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 17%;
 
-  font-size)
+  font-size: var(--centerLogo-font);
   color:var(--on-background);
+
+  position:relative;
+  top:15%;
+}
+
+/*Right*/
+
+.right{
+  width:10vw;
+  height:70vh;
+
+  position:absolute;
+  top:10vw;
+  right:2.5%;
+
+  font-size:var(--right-font);
+  color:var(--on-background);
+  text-align:right;
+}
+
+/* container */
+
+.containerOne{
+  width:30%;
+  height:7%;
+  border-radius: 0 40px 40px 0;
+  padding-top:7px;
+
+  position: relative;
+  top:10%;
+  background-color: var(--container-one);
+  font-size:var(--container-font)
+
+}
+
+.containerText{
+  width:85%;
+
+  text-align:right;
+  color:var(--background)
+}
+
+.containerCircle{
+  height: 97%;
+  width:11%;
+  border-radius:50%;
+  padding-left:10px;
+  padding-top:7px;
+
+  background-color:var(--background);
+  color:var(--container-one);
+
+  position:absolute;
+  right:0.5%;
+  top:0.5%;
+}
+
+.containerTwo{
+  width:45%;
+  height:7%;
+  border-radius: 0 40px 40px 0;
+  padding-top:7px;
+
+  background-color:var(--container-two);
+  font-size:var(--container-font);
+
+  position:relative;
+  top:10%;
+}
+
+.containerTwoCircle{
+  height: 97%;
+  width:7.5%;
+  border-radius:50%;
+  padding-left:10px;
+  padding-top:7px;
+
+  background-color:var(--background);
+  color:var(--container-two);
+
+  position:absolute;
+  right:0.3%;
+  top:0.5%;
+
+}
+
+.containerTwoText{
+  width:90%;
+
+  text-align:right;
+  color:var(--background)
+
 }
